@@ -7,7 +7,7 @@
         <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
-        <add_message>false</add_message>
+        <add_message>true</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
@@ -19,7 +19,7 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
-        <message/>
+        <message><![CDATA[<p><strong>Please add a quantity greater than zero.</strong></p>]]></message>
         <name>Validate Quantity</name>
         <order>100</order>
         <priority>100</priority>
@@ -40,15 +40,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>935f048d1b761010ea9e40c6cc4bcb3f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Validate Quantity</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wish List" source="x_527034_wish_list">30e9ffbc1b361010ea9e40c6cc4bcbad</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wish List">30e9ffbc1b361010ea9e40c6cc4bcbad</sys_scope>
         <sys_update_name>sys_script_935f048d1b761010ea9e40c6cc4bcb3f</sys_update_name>
-        <sys_updated_by>fred.luddy</sys_updated_by>
-        <sys_updated_on>2020-08-21 03:44:12</sys_updated_on>
+        <sys_updated_by>carol.coughlin</sys_updated_by>
+        <sys_updated_on>2020-08-21 03:49:23</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -12,7 +12,7 @@
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_527034_wish_list_wish_item</collection>
-        <condition>current.item.changes() || current.requester.changes() || current.operation() == 'insert'</condition>
+        <condition>current.item.changes() || current.requester.changes() || current.operation() == 'insert' || current.quantity.changes()</condition>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
@@ -38,15 +38,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>669f048d1b761010ea9e40c6cc4bcb46</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Populate Display name</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wish List" source="x_527034_wish_list">30e9ffbc1b361010ea9e40c6cc4bcbad</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wish List">30e9ffbc1b361010ea9e40c6cc4bcbad</sys_scope>
         <sys_update_name>sys_script_669f048d1b761010ea9e40c6cc4bcb46</sys_update_name>
-        <sys_updated_by>fred.luddy</sys_updated_by>
-        <sys_updated_on>2020-08-21 03:46:03</sys_updated_on>
+        <sys_updated_by>carol.coughlin</sys_updated_by>
+        <sys_updated_on>2020-08-21 03:50:16</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
